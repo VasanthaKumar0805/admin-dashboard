@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+
+:root {
+  --bg: #fff;
+  --text: #000;
+  --card-bg: #f8f9fa;
+}
+
+.dark-theme {
+  --bg: #181818;
+  --text: #fff;
+  --card-bg: #242424;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+.card {
+  background-color: var(--card-bg);
+  color: var(--text);
+}
